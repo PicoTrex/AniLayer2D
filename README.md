@@ -3,7 +3,7 @@
 </div>
 
 <div align ="center">
-    <a href="https://huggingface.co/datasets/SereinH/AniLayer2D"><img alt="HuggingFace" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-FFA116?style=for-the-badge&logoColor=white"/></a>
+    <a href="https://huggingface.co/datasets/PicoTrex/AniLayer2D"><img alt="HuggingFace" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-FFA116?style=for-the-badge&logoColor=white"/></a>
 </div>
 
 <p align="center">
@@ -16,9 +16,9 @@ TBD
 
 ## 🛠️ TODO List
 
+- [x] Upload data labeling results
+- [x] Upload **``part``** image dataset
 - [ ] Upload data using sample code
-- [ ] Upload data labeling results
-- [ ] Upload **``part & step``** image dataset
 
 ## 📦 Dataset Format
 
@@ -26,13 +26,11 @@ TBD
 AniLayer2D_Data_Root
     ├── <model_name>           
     │   ├── <model_type>
-    │   │   ├── origin_part
-    │   │   ├── origin_step
     │   │   ├── part
-    │   │   ├── step
+    │   │   ├── label_inf.json
 ```
 
-- 🧾 **Coming soon:** A `json` file containing the category of each layer and the mapping of image sequence numbers between `origin_part/step` and `part/step` before and after processing will be added later.
+- 🧾 **label_inf.json:** A `json` file containing the category of each layer and the mapping of image sequence numbers, label name and character caption.
 
 ## 🎁 Acknowledgements
 
