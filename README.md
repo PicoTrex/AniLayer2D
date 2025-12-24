@@ -1,5 +1,5 @@
 <div align="center" style="padding-top: 10px">
-    <img src="./assets/logo.png" alt="live2d-py" height="140px">
+    <img src="./assets/logo.png" alt="anilayer2d-logo" height="140px">
 </div>
 
 <div align ="center">
@@ -12,7 +12,16 @@
 
 ## 📖 Overview
 
-TBD
+<div align="center" style="">
+    <img src="./assets/flag.png" alt="anilayer2d-flag">
+</div>
+
+> [!NOTE]
+>
+> **AniLayer2D** is a layered image dataset tailored for Live2D models, featuring **multi-layer assets**, **semantic label**, and **descriptive captions**.
+> Originally inspired by the emergence of **LayerDiffusion**, we recognized the potential of such technology in Live2D production. Constrained by computational resources at the time, we chose to contribute by building this dataset.
+> Although completed in *February 2025* , the release was delayed. The recent launch of Qwen-Image-Layered has reignited our belief that fully automated Live2D generation is on the horizon. Consequently, we have organized and released this dataset to the community.
+> **If you find this helpful, please give us a Star ⭐!**
 
 ## 🛠️ TODO List
 
